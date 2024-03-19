@@ -1,0 +1,51 @@
+h1{
+    color: white;
+}
+p{
+    padding-top: 1%;
+    font-size: large;
+    color: white;
+}
+label{
+    padding-top: 3%;
+    color: white;
+}
+h2{
+    padding-top: -20%;
+    color: white;
+}  
+
+.box{
+    border: 2px solid white;
+    width:600px;
+    text-align: center;
+    margin: auto;
+    height: 400px;
+    margin-top: 6%;
+    padding-top: 3%;
+    background: rgba(84, 84, 83, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+.button{
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 3%;
+    height: 50px;
+    border-radius: 70%;
+}
+body{
+    background-image: url('bg.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.numbox{
+    height: 20px;
+
+}
+#tries{
+    height: 20px;
+    color: purple;
+    font-size: x-large;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class ="box">
+            <h1>NUMBER GUESS APPLICATION</h1>
+            <p><b><u>Select a number between 1 to 100 and Guess it!!! </b></u></p>
+            <label class = "numbox" > <b>Guess a Number:</b> <input type="number"   placeholder="Enter the Number" id="n1"></label>
+            <h1 id="res"> Wait for the result</h1>
+            <h2 id="tries"> </h2>
+            <div class = "button">
+                <input  type="submit" value="Check" style="width:80px;border-radius:20%;" onclick="findNumber()" >
+                <input  type="submit" value="Reset" style="width: 80px;border-radius:20%;" onclick="window.location.reload()">
+            </div>
+        <script src="./design.js"></script>
+</div>
+</body>
+</html>
